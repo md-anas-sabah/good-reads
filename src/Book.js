@@ -7,7 +7,7 @@ function Book({ name, image, rating }) {
       <img src={image} alt={name} className="book-img" />
       <div className="book-info">
         <h1 className="book-name">{name}</h1>
-        <p className="book-rating">{rating}</p>
+        <p className="book-rating">{rating}/5</p>
       </div>
     </div>
   );

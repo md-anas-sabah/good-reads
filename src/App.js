@@ -18,7 +18,7 @@ function App() {
       </header>
       <hr></hr>
       <div className="genre">
-        <p>***select a genre to get started***</p>
+        <p>**select a genre to get started**</p>
         <div className="genre-buttons">
           {genre.map((item, idx) => (
             <button

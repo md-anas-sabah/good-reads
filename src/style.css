@@ -3,6 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
 
+/*  */
+
+@import url("https://fonts.googleapis.com/css2?family=Griffy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +16,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: rgb(21, 26, 30);
 }
 
 .app {
@@ -25,7 +31,8 @@ body {
 }
 
 .header > h1 {
-  font-family: "Pacifico", cursive;
+  font-family: Griffy;
+  color: azure;
 }
 
 .genre {
@@ -33,7 +40,7 @@ body {
 }
 
 .genre p {
-  color: red;
+  color: rgb(227, 103, 103);
 }
 
 .genre-buttons {
@@ -44,11 +51,11 @@ body {
 }
 
 .btn {
-  background: #b1b8ad;
+  background: #ffffff;
   color: black;
   font-size: 1rem;
   font-weight: 500;
-  font-family: "Akaya Kanadaka", cursive;
+  font-family: Rokkitt;
   height: 35px;
   padding: 0 15px;
   cursor: pointer;
@@ -59,6 +66,7 @@ body {
 
 .books {
   display: flex;
+  background-color: white;
   gap: 10px;
   margin: 10px auto;
   padding: 5px 10px;
@@ -73,7 +81,7 @@ body {
 
 .book-name {
   font-weight: 500;
-  font-family: "Akaya Kanadaka", cursive;
+  font-family: Arapey;
 }
 
 .book-rating {
